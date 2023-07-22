@@ -11,7 +11,7 @@ import pytz, os, json, atexit, time
 app = Flask(__name__)
 api = Api(app)
 
-app.config['MONGO_URI'] = ''
+app.config['MONGO_URI'] = 'mongodb://uf4s8xqdsgjowcmm6ods:mcuhNh2lkrGPaDKpT9a@bwtaqf0un4h8g97bvcys-mongodb.services.clever-cloud.com:2352/bwtaqf0un4h8g97bvcys'
 # app.home_url = 'http://localhost:5000'
 
 mongo = PyMongo(app)
