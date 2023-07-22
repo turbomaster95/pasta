@@ -27,3 +27,4 @@ termcolor==1.1.0
 Werkzeug==0.15.4
 uwsgi
 gunicorn
+Flask-PyMongo
